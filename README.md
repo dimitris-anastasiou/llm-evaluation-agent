@@ -29,7 +29,7 @@ To set up the LLM Evaluation Agent, follow these steps:
 
 3. Install the necessary dependencies:
    ```sh
-   pip install ollama langchain langchain-community transformers pandas torch
+   pip install numpy pandas requests torch transformers ollama langchain langchain-community pydantic huggingface_hub
 
 ## Downloading Ollama
 
