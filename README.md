@@ -6,7 +6,7 @@ LLM Evaluation Agent is a versatile tool leveraging a Large Language Model (LLM)
 
 ## Features
 
-- **LLM-Powered Evaluation**: Harnesses the power of LLMs for robust evaluation tasks.
+- **LLM-Powered Evaluation**: Use LLMs for robust evaluation tasks.
 - **Versatile Design**: Suitable for a wide range of applications.
 - **Easy Integration**: Simple to incorporate into existing projects.
 - **Local Execution**: Supports running locally with HuggingFace models or Ollama.
