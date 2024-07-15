@@ -2,7 +2,7 @@
 
 ## Overview
 
-LLM Evaluation Agent is a versatile tool leveraging a Large Language Model (LLM) to evaluate system performance and generate travel recommendations. Designed for broad applicability, it offers easy integration and extension capabilities.
+LLM Evaluation Agent is a versatile tool leveraging a Large Language Model (LLM) to evaluate system performance. Designed for broad applicability, it offers easy integration and extension capabilities.
 
 ## Features
 
