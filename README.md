@@ -23,7 +23,6 @@ To set up the LLM Evaluation Agent, follow these steps:
    ```sh
    git clone https://github.com/dimitris-anastasiou/llm-evaluation-agent.git
 
-
 2. Navigate to the project directory:
    ```sh
    cd llm-evaluation-agent
