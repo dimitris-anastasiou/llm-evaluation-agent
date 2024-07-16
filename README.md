@@ -35,7 +35,7 @@ To set up the LLM Evaluation Agent, follow these steps:
 
 Visit the [Ollama website](https://www.ollama.com/) to download the latest version of Ollama. Follow the installation instructions specific to your operating system.
 
-## Setting Up Hugging Face
+## OR Setting Up Hugging Face
 
 1. Create an account on [Hugging Face](https://huggingface.co/).
 2. Install the `transformers` library:
