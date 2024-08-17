@@ -34,7 +34,7 @@ llm-evaluation-agent/
 
 ## Features
 
-- **LLM-Powered Evaluation**: Leverage the power of LLMs for robust evaluation tasks.
+- **LLM-Powered Evaluation**: Leverage LLMs for robust automated evaluation tasks.
 - **Versatile Design**: Adaptable to various applications and domains.
 - **Easy Integration**: Simple to incorporate into existing projects with minimal setup.
 - **Local Execution**: Supports running locally with Ollama or Hugging Face models for flexible deployment options.
