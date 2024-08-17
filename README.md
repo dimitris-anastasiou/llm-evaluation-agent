@@ -107,17 +107,17 @@ After installing the necessary dependencies, you can start using the LLM Evaluat
 
       2. **EvaluationScore**: This parser model defines the expected structure of the evaluation score returned by the LLM.
 
-      ```sh
-      class EvaluationScore(BaseModel):
-         score: float = Field(description="Evaluation score")
-      ```
+         ```sh
+         class EvaluationScore(BaseModel):
+            score: float = Field(description="Evaluation score")
+         ```
 
       3. **ProductRecommendation**: This parser model is used to structure the names of recommended products.
 
-      ```sh
-      class ProductRecommendation(BaseModel):
-         products: List[str] = Field(description="Names of recommended products")
-      ```
+         ```sh
+         class ProductRecommendation(BaseModel):
+            products: List[str] = Field(description="Names of recommended products")
+         ```
 
       4. **PerformanceEvaluation**: This parser model captures the performance evaluation results, including both a score and remarks.
 
@@ -129,30 +129,30 @@ After installing the necessary dependencies, you can start using the LLM Evaluat
 
       5. **Feedback**: This parser model is designed to capture general feedback from users, including user ID, comments, and a rating.
 
-      ```sh
-      class Feedback(BaseModel):
-         user_id: str = Field(description="ID of the user providing feedback")
-         comments: str = Field(description="Feedback comments")
-         rating: int = Field(description="Rating out of 5")
-      ```
+         ```sh
+         class Feedback(BaseModel):
+            user_id: str = Field(description="ID of the user providing feedback")
+            comments: str = Field(description="Feedback comments")
+            rating: int = Field(description="Rating out of 5")
+         ```
 
    - **Customizing Parsers**: If you're working with different types of data or need different output formats, you can create custom parsers in the parsers.py file by defining new Pydantic models. These models will then be used to validate and structure the input/output data for different LLM tasks.
    - **Dynamic Model Creation**: For more advanced use cases, you can dynamically create custom models using a factory function:
 
-   ```sh
-   def create_model(model_name: str, **fields: Any) -> BaseModel:
-      """
-      Dynamically creates a Pydantic model based on provided fields.
-      
-      Args:
-         model_name (str): Name of the model to create.
-         fields (Any): Key-value pairs of field names and their types.
-      
-      Returns:
-         BaseModel: A dynamically created Pydantic model.
-      """
-      return BaseModel.construct(name=model_name, **fields)
-   ```
+      ```sh
+      def create_model(model_name: str, **fields: Any) -> BaseModel:
+         """
+         Dynamically creates a Pydantic model based on provided fields.
+         
+         Args:
+            model_name (str): Name of the model to create.
+            fields (Any): Key-value pairs of field names and their types.
+         
+         Returns:
+            BaseModel: A dynamically created Pydantic model.
+         """
+         return BaseModel.construct(name=model_name, **fields)
+      ```
 
    This function allows you to define and instantiate Pydantic models on the fly, making it easy to adapt the agent to new types of data without needing to modify the existing parser code.
 
