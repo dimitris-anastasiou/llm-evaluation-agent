@@ -1,8 +1,10 @@
 # LLM Evaluation Agent
 
+
 ## Overview
 
 LLM Evaluation Agent is a versatile tool leveraging a Large Language Model (LLM) to evaluate system performance. Designed for broad applicability, it offers easy integration and extension capabilities.
+
 
 ## Features
 
@@ -14,6 +16,7 @@ LLM Evaluation Agent is a versatile tool leveraging a Large Language Model (LLM)
 ### Note:
 - **Ollama**: While lighter and more efficient, Ollama may not perform as well on complex tasks.
 - **Customization**: Adapt the agent to your needs by modifying the input/output prompts and data formats.
+
 
 ## Installation
 
@@ -31,9 +34,11 @@ To set up the LLM Evaluation Agent, follow these steps:
    ```sh
    pip install numpy pandas requests torch transformers ollama langchain langchain-community pydantic huggingface_hub
 
+
 ## Downloading Ollama
 
 Visit the [Ollama website](https://www.ollama.com/) to download the latest version of Ollama. Follow the installation instructions specific to your operating system.
+
 
 ## OR Setting Up Hugging Face
 
@@ -45,6 +50,7 @@ Visit the [Ollama website](https://www.ollama.com/) to download the latest versi
    ```sh
    huggingface-cli login
 4. Follow the prompts to enter your Hugging Face credentials.
+
 
 ## Usage
 
