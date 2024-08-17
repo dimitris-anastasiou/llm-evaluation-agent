@@ -24,24 +24,25 @@ LLM Evaluation Agent is a versatile tool leveraging Large Language Models (LLMs)
 To set up the LLM Evaluation Agent, follow these steps:
 
 1. **Clone the repository**:
+
    ```sh
    git clone https://github.com/dimitris-anastasiou/llm-evaluation-agent.git
    ```
 2. **Navigate to the project directory**:
+
    ```sh
    cd llm-evaluation-agent
    ```
 
 3. **Install the necessary dependencies**:
    ```sh
-   Copy code
    pipenv install
    ```
+   If you're not using pipenv, you can install the dependencies using:
+      ```sh
+      pip install -r requirements.txt
+      ```
 
-If you're not using pipenv, you can install the dependencies using:
-   ```sh
-   pip install -r requirements.txt
-   ```
 
 
 ## Setting Up Ollama
