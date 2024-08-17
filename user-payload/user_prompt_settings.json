@@ -1,0 +1,17 @@
+{
+    "user_interests": [
+        "technology",
+        "culture",
+        "gastronomy"
+    ],
+    "preferred_climate": "temperate",
+    "population_range": {
+        "min": 1000000,
+        "max": 10000000
+    },
+    "must_have_features": [
+        "good public transportation",
+        "low crime rate",
+        "high quality of life"
+    ]
+}

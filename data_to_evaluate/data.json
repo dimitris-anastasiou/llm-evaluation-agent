@@ -1,0 +1,25 @@
+{
+  "data": [
+      {
+          "city": "New York",
+          "population": 8000000,
+          "area": 468.9,
+          "climate": "temperate",
+          "cultural_significance": 9.5
+      },
+      {
+          "city": "Los Angeles",
+          "population": 4000000,
+          "area": 503.0,
+          "climate": "mediterranean",
+          "cultural_significance": 8.7
+      },
+      {
+          "city": "Chicago",
+          "population": 2700000,
+          "area": 227.3,
+          "climate": "continental",
+          "cultural_significance": 8.3
+      }
+  ]
+}
