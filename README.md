@@ -13,7 +13,6 @@ LLM Evaluation Agent is a versatile tool leveraging Large Language Models (LLMs)
 ```plaintext
 llm-evaluation-agent/
 ├── agent/
-│   ├── __init__.py
 │   ├── agent.py
 │   ├── data_processor.py
 │   ├── parsers.py
@@ -22,13 +21,13 @@ llm-evaluation-agent/
 │   └── data.json
 ├── user-payload/
 │   └── user_prompt_setting.json
-├── .gitignore
+├── README.md
 ├── LICENSE
 ├── Makefile
 ├── Pipfile
 ├── Pipfile.lock
-├── README.md
-└── requirements.txt
+├── requirements.txt
+└── .gitignore
 ```
 
 
@@ -38,7 +37,7 @@ llm-evaluation-agent/
 - **LLM-Powered Evaluation**: Leverage the power of LLMs for robust evaluation tasks.
 - **Versatile Design**: Adaptable to various applications and domains.
 - **Easy Integration**: Simple to incorporate into existing projects with minimal setup.
-- **Local Execution**: Supports running locally with Hugging Face models or Ollama for flexible deployment options.
+- **Local Execution**: Supports running locally with Ollama or Hugging Face models for flexible deployment options.
 
 > [!NOTE]
 > **Ollama**: While lighter and more efficient, Ollama may not perform as well on complex tasks.
