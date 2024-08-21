@@ -16,8 +16,6 @@ LLM Evaluation Agent is a versatile tool leveraging Large Language Models (LLMs)
 - [Setting Up HuggingFace](#setting-up-huggingface)
 - [Installation](#installation)
 - [Usage Instructions](#usage-instructions)
-- [Parsers](#parsers)
-- [Customization and Extensibility](#customization-and-extensibility)
 
 
 
