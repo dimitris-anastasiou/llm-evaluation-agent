@@ -8,6 +8,19 @@ LLM Evaluation Agent is a versatile tool leveraging Large Language Models (LLMs)
 
 
 
+## Table of Contents
+- [Overview](#overview)
+- [Directory Structure](#directory-structure)
+- [Features](#features)
+- [Setting Up Ollama](#setting-up-ollama)
+- [Setting Up HuggingFace](#setting-up-huggingface)
+- [Installation](#installation)
+- [Usage Instructions](#usage-instructions)
+- [Parsers](#parsers)
+- [Customization and Extensibility](#customization-and-extensibility)
+
+
+
 ## Directory Structure
 
 ```plaintext
